@@ -6,11 +6,10 @@
 
 main{
     width: 100%;
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    padding-inline: 8%;
 }
 .profileimg {
     width: 40px;
@@ -38,7 +37,6 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px 20px 70px;
     width: 100%;
     height: 80px;
 }
@@ -72,14 +70,79 @@ nav {
 }
 
 .iconsSection {
-    background-color: rgb(52, 58, 64);
+    background-color:#9c36b5;
     width: 100%;
-    height: 200px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 40px;
 }
 
-.kitsSection {
+.fontSection{
     width: 100%;
-    height: 230px;
-    background-color: #fff;
-    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.iconsSection p {
+    color:#fff;
+    padding-left: 40px;
+}
+
+.iconsSection span {
+    text-decoration:underline 1px dotted #fff;
+}
+
+.iconsSection .span1 {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.iconsSection p .fa-sparkles{
+    font-size: 18px;
+}
+
+.fontSection p {
+    width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20.5px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    width: 550px;
+    font-family:;
+    margin-bottom: 40px;
+}
+
+
+.kitsSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.kitHolder1{
+    background-image: url(../images/icons-bg.svg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 150px;
+}
+
+.kitHolder {
+    height: 800px;
+    width: 100%;
+    background: #fff;
 }
