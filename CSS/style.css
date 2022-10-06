@@ -109,17 +109,21 @@ nav {
 }
 
 .fontSection p {
-    width: 480px;
-    font-size: 18px;
+    width: 580px;
+    font-size: 20px;
     text-align: center;
-    line-height: 20.5px;
+    line-height: 24px;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 42px;
+    font-weight: 400;
     text-align: center;
+    line-height: 24px;
+    line-height: 40px;
+    color: rgb(95, 105, 125);
     width: 550px;
-    font-family:;
+    font-family: "cera-round-pro", "Helvetica";
     margin-bottom: 40px;
 }
 
