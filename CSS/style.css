@@ -115,15 +115,19 @@ nav {
     line-height: 24px;
 }
 
+.fontSection span {
+    color: #f59f00;
+}
+
 h1 {
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     line-height: 24px;
     line-height: 40px;
     color: rgb(95, 105, 125);
-    width: 550px;
-    font-family: "cera-round-pro", "Helvetica";
+    width: 600px;
+    font-family: 'Jost', 'Roboto',sans-serif;
     margin-bottom: 40px;
 }
 
